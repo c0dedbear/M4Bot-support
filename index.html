@@ -12,6 +12,9 @@ description: Convert MP3, WAV, and M4A files to M4B format with chapters and met
     
     .hero-icon-container {
         margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     
     .hero-icon {
@@ -20,6 +23,8 @@ description: Convert MP3, WAV, and M4A files to M4B format with chapters and met
         border-radius: 20px;
         object-fit: contain;
         box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        display: block;
+        margin: 0 auto;
     }
     
     .hero-icon-light {
@@ -60,32 +65,26 @@ description: Convert MP3, WAV, and M4A files to M4B format with chapters and met
     
     .cta-button {
         display: inline-block;
-        background: linear-gradient(135deg, var(--accent-color) 0%, var(--accent-hover) 100%);
-        color: #1e3a5f;
+        background-color: var(--accent-color);
+        color: #ffffff;
         padding: 14px 28px;
         border-radius: 8px;
         text-decoration: none;
         font-size: 17px;
         font-weight: 600;
-        transition: opacity 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+        transition: background-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
         margin: 8px;
     }
     
-    @media (prefers-color-scheme: dark) {
-        .cta-button {
-            color: #ffffff;
-        }
-    }
-    
     .cta-button:hover {
-        opacity: 0.9;
+        background-color: var(--accent-hover);
         transform: translateY(-1px);
-        box-shadow: 0 4px 12px rgba(125, 211, 252, 0.4);
+        box-shadow: 0 4px 12px rgba(188, 115, 70, 0.4);
     }
     
     @media (prefers-color-scheme: dark) {
         .cta-button:hover {
-            box-shadow: 0 4px 12px rgba(147, 197, 253, 0.5);
+            box-shadow: 0 4px 12px rgba(255, 139, 66, 0.5);
         }
     }
     
@@ -194,7 +193,7 @@ description: Convert MP3, WAV, and M4A files to M4B format with chapters and met
         top: 0;
         width: 32px;
         height: 32px;
-        background: linear-gradient(135deg, var(--accent-color) 0%, var(--accent-hover) 100%);
+        background-color: var(--accent-color);
         color: white;
         border-radius: 50%;
         display: flex;
