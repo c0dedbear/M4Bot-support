@@ -66,7 +66,7 @@ We reserve the right to modify these Terms at any time. Material changes will be
 
 ## 13. Contact
 
-For questions about these Terms, please contact us through the Mac App Store support page.
+For questions about these Terms, please contact us at codedbear@icloud.com or through the Mac App Store support page.
 
 ---
 
